@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing:inherit;
+}
+
+
+html {
+    box-sizing:border-box;
+    font-size:62.5%; 
+    
+    @include respond(big-desktop) {
+        font-size:75%;
+    }
+
+    @include respond(tab-land) {
+        font-size:56.25%;
+    }
+
+    @include respond(tab-port) {
+        font-size:50%;
+    }
+
+    @include respond(phone) {
+        font-size:40%;
+    }
+
+}
+
+
+body {
+    position:relative;
+    font-family:$base-font;
+    font-weight:300;
+    line-height:1.6;
+    // width:108rem;
+    // width:1080px;
+} 
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    padding:0;
+}
+
+
+
