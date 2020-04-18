@@ -65,11 +65,13 @@ li {
         flex-basis:70%;
         display:flex;
         justify-content: space-between;
+        align-items: center;
 
         &__list {
             display:flex;
             flex-basis:60%;
-           justify-content: space-between;
+            justify-content: space-between;
+            align-items: center;
 
             li {
                 margin-right:2.2rem;
@@ -90,6 +92,7 @@ li {
             ul {
                 display:flex;
                 justify-content: space-between;
+                align-items: center;
 
                 li {
                     a {
