@@ -213,6 +213,7 @@ li {
 
 .nav__link__list li a {
   color: black;
+  font-weight: 500;
 }
 
 .nav__link__list li a:hover {
@@ -235,6 +236,7 @@ li {
 
 .nav__link__auth ul li a {
   color: black;
+  font-weight: 500;
 }
 
 .nav__link__auth ul li a.link {
